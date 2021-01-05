@@ -54,7 +54,7 @@ body {
 
 #hour,
 #minute, 
-#seconds{
+#seconds {
   color: var(--min-color);
 }
 
