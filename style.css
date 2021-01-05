@@ -49,35 +49,13 @@ body {
 }
 
 .animatedPause {
-  animation: opacityTimer 1.5s infinite;
-}
-
-@keyframes opacityTimer {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
+  opacity: 0.5
 }
 
 #hour,
-#minute {
+#minute, 
+#seconds{
   color: var(--min-color);
-}
-
-#seconds {
-  color: var(--sec-color);
-  font-weight: normal;
-}
-
-#milliseconds {
-  display: none;
-  font-size: 0.6em;
-  padding-top: 7%;
 }
 
 /*layout for desktop----------------------------------------------------*/
