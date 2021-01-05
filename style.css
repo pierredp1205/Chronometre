@@ -61,8 +61,10 @@ body {
 }
 
 .button {
-  border-radius: 10px;
-  width: 20%
+  border-radius: 50px;
+  width: 20%;
+  height: 50px;
+  color: white
 }
 
 #start_stop {

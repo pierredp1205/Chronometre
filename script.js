@@ -212,6 +212,12 @@
 
   timer.addEventListener("dblclick", feature.timer.reset);
 
+  const start_stop = document.querySelector(".start_stop");
+  const reset = document.querySelector(".reset");
+
+  start_stop.addEventListener("click", feature.timer.stopAndStart);
+  reset.addEventListener("click", feature.timer.reset);
+
   feature.display.theme();
 
   feature.display.showMilli();
@@ -219,6 +225,7 @@
   sendTime.addEventListener("click", feature.display.captureTime);
 
   tbody.addEventListener("click", feature.display.deleteTime);
+
 })();
 
 //I expand the settings menu if it is not visible and I fold it up if it is visible.
