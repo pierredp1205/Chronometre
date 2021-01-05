@@ -21,11 +21,11 @@
       display: {
         //Choose theme light or dark
         theme: () => {
-          const toggleSwitchTheme = document.querySelector('.theme-switch input[type="checkbox"]');
+          //const toggleSwitchTheme = document.querySelector('.theme-switch input[type="checkbox"]');
 
           if (localStorage.getItem("theme") === "true") {
             document.documentElement.setAttribute("data-theme", "dark");
-            toggleSwitchTheme.checked = true;
+            //toggleSwitchTheme.checked = true;
           } else {
             document.documentElement.setAttribute("data-theme", "light");
           }
@@ -40,7 +40,7 @@
             }
           }
 
-          toggleSwitchTheme.addEventListener("change", switchTheme, false);
+          //toggleSwitchTheme.addEventListener("change", switchTheme, false);
         },
         //Show or hide milliseconds
         showMilli: () => {
