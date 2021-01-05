@@ -60,6 +60,19 @@ body {
   display: none;
 }
 
+.button {
+  border-radius: 10px;
+  width: 20%
+}
+
+#start_stop {
+  background-color: green;
+}
+
+#reset {
+  background-color: red;
+}
+
 /*layout for desktop----------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
