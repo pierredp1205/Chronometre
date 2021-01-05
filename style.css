@@ -21,11 +21,9 @@ body {
 
 .layoutTime {
   z-index: 1;
-}
-
-.chrono {
   grid-area: timer;
   margin-top: 100px;
+  text-align: center;
 }
 
 .timer {
