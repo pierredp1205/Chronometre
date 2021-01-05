@@ -212,8 +212,8 @@
 
   timer.addEventListener("dblclick", feature.timer.reset);
 
-  const start_stop = document.querySelector(".start_stop");
-  const reset = document.querySelector(".reset");
+  const start_stop = document.querySelector("#start_stop");
+  const reset = document.querySelector("#reset");
 
   start_stop.addEventListener("click", feature.timer.stopAndStart);
   reset.addEventListener("click", feature.timer.reset);
