@@ -190,7 +190,7 @@
 
   localStorage.setItem("diff", localStorage.getItem("diff") ? localStorage.getItem("diff") : 0);
 
-  const timer = document.querySelector(".timer"),
+  const timer = document.querySelector(".timer")
     //sendTime = document.getElementById("sendTime"),
     //tbody = document.getElementsByTagName("tbody")[0];
 
