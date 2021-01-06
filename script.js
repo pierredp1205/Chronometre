@@ -229,38 +229,38 @@
 })();
 
 //I expand the settings menu if it is not visible and I fold it up if it is visible.
-document.querySelector(".logo-setting").addEventListener("click", () => {
-  let setting = document.querySelector(".setting");
+// document.querySelector(".logo-setting").addEventListener("click", () => {
+//   let setting = document.querySelector(".setting");
 
-  if (setting.style.display === "inline-block") {
-    setting.classList.replace("settingOpen", "settingClose");
+//   if (setting.style.display === "inline-block") {
+//     setting.classList.replace("settingOpen", "settingClose");
 
-    setTimeout(() => {
-      setting.style.display = "none";
-    }, 200);
-  } else {
-    setting.classList.remove("settingClose");
-    setting.classList.add("settingOpen");
-    setting.style.display = "inline-block";
-  }
-});
+//     setTimeout(() => {
+//       setting.style.display = "none";
+//     }, 200);
+//   } else {
+//     setting.classList.remove("settingClose");
+//     setting.classList.add("settingOpen");
+//     setting.style.display = "inline-block";
+//   }
+// });
 
-document.addEventListener("click", (e) => {
-  const setting = document.querySelector(".setting");
+// document.addEventListener("click", (e) => {
+//   const setting = document.querySelector(".setting");
 
-  if (
-    e.target.className !== "logo-setting" &&
-    e.target.className !== "slider round" &&
-    e.target.className !== "slider2 round2" &&
-    e.target.className !== "check"
-  ) {
-    if (setting.style.display === "inline-block") {
-      setting.classList.replace("settingOpen", "settingClose");
+//   if (
+//     e.target.className !== "logo-setting" &&
+//     e.target.className !== "slider round" &&
+//     e.target.className !== "slider2 round2" &&
+//     e.target.className !== "check"
+//   ) {
+//     if (setting.style.display === "inline-block") {
+//       setting.classList.replace("settingOpen", "settingClose");
 
-      setTimeout(() => {
-        setting.style.display = "none";
-        setting.classList.remove("settingClose");
-      }, 200);
-    }
-  }
-});
+//       setTimeout(() => {
+//         setting.style.display = "none";
+//         setting.classList.remove("settingClose");
+//       }, 200);
+//     }
+//   }
+// });
