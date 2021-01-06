@@ -44,7 +44,7 @@
         },
         //Show or hide milliseconds
         showMilli: () => {
-          const toggleSwitchMilli = document.querySelector(".milli-switch input[type=checkbox]");
+          //const toggleSwitchMilli = document.querySelector(".milli-switch input[type=checkbox]");
 
           if (localStorage.getItem("showMilli") === "true") {
             milliseconds.style.display = "initial";
@@ -63,7 +63,7 @@
             }
           }
 
-          toggleSwitchMilli.addEventListener("change", switchMilli);
+          //toggleSwitchMilli.addEventListener("change", switchMilli);
         },
         //In this function I create elements neccesary to add the time captured in our table
         captureTime: () => {
