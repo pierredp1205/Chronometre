@@ -191,8 +191,8 @@
   localStorage.setItem("diff", localStorage.getItem("diff") ? localStorage.getItem("diff") : 0);
 
   const timer = document.querySelector(".timer"),
-    sendTime = document.getElementById("sendTime"),
-    tbody = document.getElementsByTagName("tbody")[0];
+    //sendTime = document.getElementById("sendTime"),
+    //tbody = document.getElementsByTagName("tbody")[0];
 
   let _interval;
 
@@ -222,9 +222,9 @@
 
   feature.display.showMilli();
 
-  sendTime.addEventListener("click", feature.display.captureTime);
+  //sendTime.addEventListener("click", feature.display.captureTime);
 
-  tbody.addEventListener("click", feature.display.deleteTime);
+  //tbody.addEventListener("click", feature.display.deleteTime);
 
 })();
 
